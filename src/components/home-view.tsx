@@ -30,7 +30,7 @@ function HeroVisual() {
       <div className="@container relative aspect-[4/3] w-full overflow-hidden rounded-[2rem] bg-[radial-gradient(120%_100%_at_70%_20%,#fff7ef_0%,#fdf1e7_38%,#f7f4f2_100%)] shadow-[0_40px_80px_-56px_rgba(234,88,12,0.55)] sm:aspect-[16/11] sm:rounded-[2.2rem]">
         {/* Plain <img>: the hero art is flipped and cropped with CSS, so next/image adds nothing here. */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/images/hero-car.png" alt="A modern RideX cab on a city road with the skyline behind it" className="absolute inset-0 h-full w-full scale-x-[-1] object-cover object-[52%_58%]" />
+        <img src="/images/hero-car.png" alt="A modern RideX cab on a city road with the skyline behind it" className="absolute inset-0 h-full w-full object-cover object-[52%_58%]" />
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(65%_60%_at_28%_38%,rgba(253,186,116,0.42)_0%,rgba(253,186,116,0)_62%)]" />
         <div className="pointer-events-none absolute inset-x-0 top-0 h-[26%] bg-[linear-gradient(180deg,rgba(253,248,245,0.92)_0%,rgba(253,248,245,0)_100%)]" />
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[22%] bg-[linear-gradient(0deg,rgba(253,248,245,0.95)_0%,rgba(253,248,245,0)_100%)]" />
