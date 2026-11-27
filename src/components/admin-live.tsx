@@ -72,7 +72,7 @@ type LiveData = {
 type Selection = { kind: "ride" | "driver"; id: string; code: string } | null;
 type Tone = "green" | "amber" | "red" | "grey" | "blue";
 
-const POLL_MS = 4000;
+const POLL_MS = 10000;
 
 const TONE: Record<Tone, string> = {
   green: "border-green-200 bg-green-50 text-green-800",
