@@ -103,7 +103,7 @@ export function AdminViews({ view = "dashboard" }: { view?: string }) {
     void load();
     const timer = window.setInterval(() => {
       if (document.visibilityState === "visible") void load();
-    }, 8000);
+    }, 30000);
     return () => window.clearInterval(timer);
   }, [view]);
 
